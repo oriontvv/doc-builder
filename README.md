@@ -2,8 +2,9 @@
 An simple runner of rst2html5 for batch converting of rst files
 
 `rst2html5` must be installed:
-$ rst2html5-tools
+```$ pip install rst2html5-tools```
 
+```
 $ git clone https://github.com/oriontvv/doc-builder doc
 $ ./builder.py
 $ exa --tree
@@ -15,3 +16,4 @@ doc
 └── src
    └── api
       └── module.rst
+```
